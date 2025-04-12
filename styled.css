@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI',sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #140729 ;
+    color: white;
+    
+}
+.side_cont{
+    display: flex;
+    min-height: 100vh;
+
+}
+.sidebar{
+    background-color: #190737;
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.personal_info{
+    color:#ffffff;
+    font: size 200px;
+
+}
+
+.personal_info p{
+
+    color: #dfdfdf;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.image img{
+    border-radius: 50%;
+    border-width: 10px;
+    margin-left: 80px;
+    border-color:#a288ce;
+    border-style:solid;
+}
+
+.personal_info h2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #a288ce;
+    
+}
+.personal_info li{
+    margin-left: 140px;
+}
+.personal_info h4{
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.personal_info a{
+    color:gold;
+}
+.bar{
+    background-color: gray;
+    height: 20px;
+    border-radius:3px;
+    margin-top: 15px;
+    position: relative;
+
+
+}
+.bar::before{
+    content:'' ;
+    height: 100%;
+    background: gold;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.html::before{width: 80%;content: '80%';text-align:right;font-size:15px ;font-style: italic;font-weight: 700;color:black;}
+.css::before{width:85%;content: '85%';text-align:right;font-size:15px ;font-style: italic;font-weight: 700;color: black;}
+.java::before{width:95%;content: '95%';text-align:right;font-size:15px ;font-style: italic;font-weight: 700;color: black;}
+.python::before{width:50%;content: '50%';text-align:right;font-size:15px ;font-style: italic;font-weight: 700;color: black;}   
+.main{
+    flex-grow: 1;
+    padding: 40px;
+    box-sizing: border-box;
+
+}
+.edu{
+    background-color: #240d46;
+    min-height: 32.33%;
+    padding: 20px;
+    position: relative;
+    margin-top:20 ;
+}
+.edu::before{
+    content: '';
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    background-color: gold;
+
+}
+.edu::before{
+    content:'';
+    font-size: 340%;
+    font-weight: 500;
+    color: black;
+    position: absolute;
+    writing-mode: vertical-lr;
+}
+.education::before{content:'EDUCATION';width: 8%;text-align: center;}
+.project::before{content:'PROJECTS';width: 8%;text-align: center;}
+.exp::before{content:'EXPERIENCE';width: 8%;text-align: center;}
+.main h3{font-size:40px;color: white;font-weight: 500;}
+.proj{
+    background-color: #240d46;
+    min-height: 32.33%;
+    padding: 20px;
+    position: relative;
+    margin-top:20 ;
+}
+.proj::before{
+    content: '';
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    background-color: gold;
+
+}
+.proj::before{
+    content:'';
+    font-size:340%;
+    font-weight: 500;
+    color: black;
+    position: absolute;
+    writing-mode: vertical-lr;
+}
+
+.project::before{content:'PROJECTS';width: 8%;text-align: center;}
+
+.exper{
+    background-color: #240d46;
+    min-height: 32.33%;
+    padding: 20px;
+    position: relative;
+    margin-top:20 ;
+}
+.exper::before{
+    content: '';
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    background-color: gold;
+
+}
+.exper::before{
+    content:'';
+    font-size: 340%;
+    font-weight: 500;
+    color: black;
+    position: absolute;
+    writing-mode: vertical-lr;
+}
+
+.exp::before{content:'EXPERIENCE';width: 8%;text-align: center;}
+.box h3{font-size:250%;color: white;font-weight: 700; text-align: center;text-decoration: underline}
+.box{background-color: #150835;position:absolute;width: 40%;height:85%;left: 13%;border-radius:10px;}
+.box p{margin-top: 5px;
+    text-align:left;font-size: 18px;
+}
+
+
+.box2{background-color: #150835;position:absolute
+    ;width: 40%;height:85%;left:57%;border-radius:10px;}
+.box2 p{
+    margin-top: 2%;
+    text-align: left;font-size: 120%;
+}
+.box2 h3{font-size:250%;color: white;font-weight: 700; text-align: center;text-decoration: underline;margin-bottom: 10px;}
+.box ul{    display: block;
+    margin:0 auto;
+    width:70%;
+}
+
+.box2 ul{    display: block;
+    margin:0 auto;
+    width:70%;
+}
+
+.box strong{color: goldenrod;}
+.box2 strong{color: goldenrod;}
+    
